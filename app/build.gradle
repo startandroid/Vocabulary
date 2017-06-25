@@ -38,14 +38,14 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 
     // butterknife
-    compile "com.jakewharton:butterknife:$butterknife_version"
+    implementation "com.jakewharton:butterknife:$butterknife_version"
     kapt "com.jakewharton:butterknife-compiler:$butterknife_version"
 
     // dbflow
     kapt "com.github.raizlabs.dbflow:dbflow-processor:$dbflow_version"
-    compile "com.github.raizlabs.dbflow:dbflow-core:$dbflow_version"
-    compile "com.github.raizlabs.dbflow:dbflow:$dbflow_version"
-    compile "com.github.raizlabs.dbflow:dbflow-rx2:$dbflow_version"
+    implementation "com.github.raizlabs.dbflow:dbflow-core:$dbflow_version"
+    implementation "com.github.raizlabs.dbflow:dbflow:$dbflow_version"
+    implementation "com.github.raizlabs.dbflow:dbflow-rx2:$dbflow_version"
 
     // rxjava
     implementation 'io.reactivex.rxjava2:rxkotlin:2.1.0'

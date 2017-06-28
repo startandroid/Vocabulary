@@ -6,4 +6,7 @@
     <string name="dictionary"><u>Dictionary</u></string>
     <string name="en_to_ru"><![CDATA[En > Ru]]></string>
     <string name="ru_to_en"><![CDATA[Ru > En]]></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
